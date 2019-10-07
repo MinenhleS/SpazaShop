@@ -1,4 +1,4 @@
-package LocalShop;
+package products;
 
 public class Product {
 

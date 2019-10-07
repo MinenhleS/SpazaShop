@@ -1,15 +1,13 @@
-package LocalShop;
+package products;
 
-import Exceptions.*;
-
-import java.util.ArrayList;
+import exceptions.*;
 
 public class VendingMachine {
 
-    int stockCount = 0;
-    int drinkCount = 0;
-    int chocolateCount = 0;
-    int snackCount = 0;
+    private int stockCount = 0;
+    private int drinkCount = 0;
+    private int chocolateCount = 0;
+    private int snackCount = 0;
 
 
     //ArrayList<Product> productType = new ArrayList<Product>();
@@ -82,13 +80,3 @@ public class VendingMachine {
 
 }
 
-
-// throws ProductNotFoundException
-
-/*
-SoftDrinksOutOfStockException
-SaltyCracksAllEatenException
-ChocolatesAllGone
-
-InvalidProductException
- */

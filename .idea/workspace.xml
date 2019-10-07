@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="596e8cbe-95b3-48b1-9588-16e689a623de" name="Default Changelist" comment="" />
+    <list default="true" id="596e8cbe-95b3-48b1-9588-16e689a623de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/Exceptions/ChocolateNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/Exceptions/InvalidNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/Exceptions/ProductNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/Exceptions/SaltySnacksNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/Exceptions/SoftDrinksNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/Chocolates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/RunMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/SaltySnacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/SoftDrinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/LocalShop/VendingMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ChocolateNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ChocolateNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/InvalidNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/InvalidNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/SaltySnacksNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SaltySnacksNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/SoftDrinksNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/Chocolates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Chocolates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/RunMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/RunMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/SaltySnacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/SaltySnacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/SoftDrinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocalShop/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/products/VendingMachine.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +40,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ReIHNiwXRfGtAxHGL7pg9GFbFC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -40,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="RunMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocalShop.RunMachine" />
+      <option name="MAIN_CLASS_NAME" value="products.RunMachine" />
       <module name="SpazaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LocalShop.*" />
+          <option name="PATTERN" value="products.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,5 +106,16 @@
       <updated>1570021045512</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

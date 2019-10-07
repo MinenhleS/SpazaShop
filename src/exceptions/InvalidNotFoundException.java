@@ -1,4 +1,4 @@
-package Exceptions;
+package exceptions;
 
 public class InvalidNotFoundException extends RuntimeException {
     public InvalidNotFoundException(){
