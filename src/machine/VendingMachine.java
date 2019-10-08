@@ -1,6 +1,10 @@
-package products;
+package machine;
 
 import exceptions.*;
+import products.Chocolates;
+import products.Product;
+import products.SaltySnacks;
+import products.SoftDrinks;
 
 public class VendingMachine {
 

@@ -1,13 +1,17 @@
-package products;
+package machine;
 
 import exceptions.ChocolateNotFoundException;
 import exceptions.ProductNotFoundException;
 import exceptions.SaltySnacksNotFoundException;
 import exceptions.SoftDrinksNotFoundException;
+import machine.VendingMachine;
+import products.Chocolates;
+import products.SaltySnacks;
+import products.SoftDrinks;
 
 public class RunMachine {
 
-    public static void main(String[] args) throws ProductNotFoundException {
+    public static void main(String[] args)  {
         try {
             Chocolates chocolates = new Chocolates();
             SaltySnacks saltySnacks = new SaltySnacks();
