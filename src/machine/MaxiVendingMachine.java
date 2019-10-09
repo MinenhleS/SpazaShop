@@ -26,7 +26,7 @@ public class MaxiVendingMachine extends VendingMachine{
     }
 
 
-    public void buy(Chocolates chocolates) throws ProductNotFoundException {
+    public  void buy(Chocolates chocolates) throws ProductNotFoundException {
         if (chocolateCount <= 0) {
             throw new ChocolateNotFoundException();
 
@@ -70,4 +70,15 @@ public class MaxiVendingMachine extends VendingMachine{
             throw new InvalidNotFoundException();
     }
 
+    public int getDrinkCount(){
+        return drinkCount;
+    }
+
+    public int getChocolateCount() {
+        return chocolateCount;
+    }
+
+    public int getSnackCount() {
+        return snackCount;
+    }
 }

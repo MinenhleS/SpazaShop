@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="596e8cbe-95b3-48b1-9588-16e689a623de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/machine/MaxiVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TestSpaza/MaxiVendingMachineTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestSpaza/ChocolateTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestSpaza/SaltySnackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestSpaza/SofDrinkTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpazaShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpazaShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/META-INF/SpazaShop.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/exceptions/ChocolateNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/exceptions/InvalidNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/exceptions/ProductNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/exceptions/SaltySnacksNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/exceptions/SoftDrinksNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/Chocolates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/RunMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/SaltySnacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/SoftDrinks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpazaShop/products/VendingMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/RunMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine/RunMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/machine/MaxiVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine/MaxiVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestSpaza/MaxiVendingMachineTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,37 +46,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunMachine">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="JUnit.SaltySnackTest">
+    <configuration name="SaltySnackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpazaShop" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSpaza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSpaza" />
+      <option name="MAIN_CLASS_NAME" value="TestSpaza.SaltySnackTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="machine.RunMachine" />
+    <configuration name="SaltySnackTest.shouldBuySoftDrinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpazaShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="machine.*" />
+          <option name="PATTERN" value="TestSpaza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestSpaza" />
+      <option name="MAIN_CLASS_NAME" value="TestSpaza.SaltySnackTest" />
+      <option name="METHOD_NAME" value="shouldBuySoftDrinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofDrinkTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpazaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSpaza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSpaza" />
+      <option name="MAIN_CLASS_NAME" value="TestSpaza.SofDrinkTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofDrinkTests.shouldAddStockForSoftDrinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpazaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSpaza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSpaza" />
+      <option name="MAIN_CLASS_NAME" value="TestSpaza.SofDrinkTests" />
+      <option name="METHOD_NAME" value="shouldAddStockForSoftDrinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SofDrinkTests.shouldBuySoftDrinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpazaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSpaza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSpaza" />
+      <option name="MAIN_CLASS_NAME" value="TestSpaza.SofDrinkTests" />
+      <option name="METHOD_NAME" value="shouldBuySoftDrinks" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.RunMachine" />
+      <item itemvalue="JUnit.SofDrinkTests" />
+      <item itemvalue="JUnit.SofDrinkTests.shouldAddStockForSoftDrinks" />
+      <item itemvalue="JUnit.SofDrinkTests.shouldBuySoftDrinks" />
+      <item itemvalue="JUnit.SaltySnackTest" />
+      <item itemvalue="JUnit.SaltySnackTest.shouldBuySoftDrinks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunMachine" />
+        <item itemvalue="JUnit.SaltySnackTest" />
+        <item itemvalue="JUnit.SaltySnackTest.shouldBuySoftDrinks" />
+        <item itemvalue="JUnit.SofDrinkTests" />
+        <item itemvalue="JUnit.SofDrinkTests.shouldAddStockForSoftDrinks" />
+        <item itemvalue="JUnit.SofDrinkTests.shouldBuySoftDrinks" />
       </list>
     </recent_temporary>
   </component>
